@@ -1,0 +1,124 @@
+
+@font-face {
+    font-family:myfont;
+    src: url(HankenGrotesk-Medium.ttf);
+} 
+*{ 
+  font-family: myfont;
+}
+.box1{
+    
+    color: whitesmoke;
+    width : 242px;
+    height: 42.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    margin-bottom: 5px;
+    border: 1px transparent rgb(113, 49, 252);
+    background-image: linear-gradient(rgba(87, 60, 239, 0.9),rgb(65, 41, 203));
+    border-radius: 8.2%;
+
+}
+.circle{
+    height: 10vw;
+    width: 10vw;margin-top: 5%;
+    border:0.0001rem solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    background-image: linear-gradient(rgba(56, 16, 150, 0.875),rgba(78, 48, 252, 0.9));
+}
+.marks{
+    
+    font-size: 2.6rem;
+    align-self: center;
+    text-align: center;
+}
+.hundred{
+    font-weight: 100;
+    color: rgb(178, 176, 187)
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box2{
+    color: rgb(25, 22, 22);
+    width : 288px;
+    height: 28.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    border: .25rem solid transparent;
+    font-weight: 600;
+}
+.box2 h3{
+    text-align: left;
+}
+
+.mark{
+    /* color: black; */
+    text-align: right;
+    /* font-size: 189rem; */
+}
+.minibox{
+    margin: 1%;
+    height: 3%;
+    width: 170px;
+    border-radius: 9px;
+    padding: 5.5%;
+    display:flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    
+}
+.minibox svg{
+    margin-right:8px;
+    /* text-emphasis-color:black ; */
+}
+.red{
+    /* display: flex; */
+    color: rgb(221, 18, 58);
+    background-image: linear-gradient(rgb(246, 212, 212),rgb(251, 248, 249));
+}
+.yellow{
+    /* display: flex; */
+    color: rgb(244, 240, 3);
+    background-image: linear-gradient(rgb(246, 249, 201),rgb(255, 255, 249));
+}
+.green{
+    color: rgb(3, 249, 208);
+    background-image: linear-gradient(rgb(207, 244, 250),rgb(249, 248, 249));
+    }
+.blue{
+    color: rgb(13, 9, 250);
+    background-image: linear-gradient(rgb(229, 222, 249),rgb(247, 246, 250));
+    }
+
+.black{
+    cursor: pointer;
+    height: 5%;
+    width: 150px;
+    border-radius: 9px;
+    padding: 5.5%;
+    margin-top: 4%;
+    text-align: center;
+    background-color: rgb(65, 41, 203);
+    color: aliceblue;
+    border-radius: 45px;
+}
+.summary{
+    justify-content: left;
+    margin-bottom: 3%;
+    text-align: left;
+   
+}
+.content .box2 .black:hover{
+    color: rgb(246, 247, 245);
+    background-color: rgb(16, 14, 14);
+}
